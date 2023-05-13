@@ -254,3 +254,6 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
+img {
+  display: block;
+}
