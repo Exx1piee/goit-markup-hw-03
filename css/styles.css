@@ -1,0 +1,255 @@
+:root {
+  --brand-color: #3f51b5;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
+  color: #434455;
+  background-color: #ffffff;
+}
+.link {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  text-decoration: none;
+}
+.logotwo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #e7e9fc;
+}
+
+.button-heroimg {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  /* WHITE */
+
+  background: #4d5ae5;
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.button-heroimg:hover {
+  background-color: #404bbf;
+}
+.button-heroimg:focus {
+  background-color: #404bbf;
+}
+.list {
+  list-style: none;
+}
+.list-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.list-link:hover {
+  color: #404bbf;
+}
+.list-link:focus {
+  color: #404bbf;
+}
+.address {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.heroimg {
+  background-color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  line-height: 1.07;
+}
+.address-menu {
+  font-style: normal;
+}
+.main-info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.main-info-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.address:hover {
+  color: #404bbf;
+}
+.address:focus {
+  color: #404bbf;
+}
+.beginsection {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+  line-height: 1.11;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+.our-team-photos {
+  background-color: #ffffff;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.logotwo-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
+}
+.footer-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* CLOUD */
+
+  color: #f4f4fd;
+}
+
+.button-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  /* IRIS */
+
+  color: #4d5ae5;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.button-portfolio:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.button-portfolio:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
