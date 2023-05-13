@@ -40,6 +40,7 @@ body {
 
 .header {
   background-color: #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .button-heroimg {
@@ -74,7 +75,8 @@ body {
 }
 .list {
   list-style: none;
-  display: inline;
+  display: flex;
+  align-items: center;
 }
 .list-link {
   font-family: "Roboto", sans-serif;
@@ -256,4 +258,12 @@ body {
 }
 img {
   display: block;
+}
+.div-header {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
