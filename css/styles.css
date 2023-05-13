@@ -125,6 +125,8 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   line-height: 1.07;
+  padding: 180px 0;
+  max-width: 496x;
 }
 .address-menu {
   font-style: normal;
@@ -141,6 +143,7 @@ body {
   /* NAVY BLUE */
 
   color: #2e2f42;
+  
 
   /* Inside auto layout */
 
@@ -279,5 +282,4 @@ img {
 }
 .list-header-li{
   padding: 24px 0;
-  
 }
