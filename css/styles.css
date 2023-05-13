@@ -21,6 +21,34 @@ body {
   line-height: 1.17;
   text-decoration: none;
   margin-right: 76px;
+  
+}
+.link-footer{
+  font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* IRIS */
+
+color: #4D5AE5;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+text-decoration: none;
+margin-bottom: 16px;
+display: inline-block;
 }
 .logotwo {
   font-family: "Raleway", sans-serif;
@@ -209,6 +237,7 @@ body {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .logotwo-footer {
   font-family: "Raleway", sans-serif;
