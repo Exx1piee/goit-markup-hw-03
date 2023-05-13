@@ -20,6 +20,7 @@ body {
   text-transform: uppercase;
   line-height: 1.17;
   text-decoration: none;
+  margin-right: 76px;
 }
 .logotwo {
   font-family: "Raleway", sans-serif;
@@ -36,6 +37,7 @@ body {
   order: 1;
   flex-grow: 0;
   text-decoration: none;
+  margin-right: 76px
 }
 
 .header {
@@ -76,7 +78,8 @@ body {
 .list {
   list-style: none;
   display: flex;
-  align-items: center;
+  gap: 40px;
+  margin-right: 0;
 }
 .list-link {
   font-family: "Roboto", sans-serif;
@@ -105,6 +108,9 @@ body {
   color: #434455;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 0;
 }
 .heroimg {
   background-color: #2e2f42;
@@ -266,4 +272,11 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.div-header-nav{
+  display: flex;
+  align-items: center;
+}
+.list-header-li{
+  padding: 24px 0;
 }
