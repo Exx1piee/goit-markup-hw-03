@@ -57,6 +57,9 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  display: block; 
+  min-width: 169px;
+  height: 56px;
 
   /* WHITE */
 
@@ -125,8 +128,12 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   line-height: 1.07;
-  padding: 180px 0;
-  max-width: 496x;
+  padding: 188px 0 ;
+ 
+}
+.heroimg-h1{
+
+  max-width: 490px;
 }
 .address-menu {
   font-style: normal;
