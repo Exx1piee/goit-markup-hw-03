@@ -95,12 +95,6 @@ display: inline-block;
 
   background: #4d5ae5;
   color: #ffffff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .button-heroimg:hover {
   background-color: #404bbf;
@@ -159,10 +153,11 @@ display: inline-block;
   color: #ffffff;
   line-height: 1.07;
   padding: 188px 0 ;
- 
+ text-align: center;
 }
 .heroimg-h{
   max-width: 496px;
+  
 }
 .address-menu {
   font-style: normal;
