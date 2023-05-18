@@ -119,6 +119,15 @@ body {
   gap: 40px;
   margin-right: 0;
 }
+.list-portfolio-buttons{
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 0;
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .begin-section-ul {
   list-style: none;
   display: flex;
