@@ -99,7 +99,7 @@ body {
   gap: 24px;
   margin-right: 0;
 }
-.main-info-list {
+.main-info-list{
   width: calc((100% - 72px) / 4);
 }
 
