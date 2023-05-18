@@ -101,9 +101,10 @@ body {
   
 }
 .main-infolist{
-  width: calc((100% - 72px) / 4);
   margin: 0; 
   padding: 0;
+  width: calc((100% - 72px) / 4);
+
 }
 .main-infolist-begin{
   margin: 0;
@@ -125,6 +126,8 @@ body {
   display: flex;
   gap: 24px;
   margin-right: 0;
+  margin: 0; 
+  padding: 0;
 }
 .main-info-container-ul{
   list-style: none;
