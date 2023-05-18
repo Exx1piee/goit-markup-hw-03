@@ -239,14 +239,14 @@ body {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.our-team-photos-img{
+
+.our-team-photos {
   margin: 0;
   padding: 0;
   width: calc((100% - 72px) / 4);
-}
-.our-team-photos {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px; 
+
  
 }
 .our-team-li-div{
