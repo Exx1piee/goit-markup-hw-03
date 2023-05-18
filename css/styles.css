@@ -108,7 +108,9 @@ body {
   display: flex;
   gap: 40px;
   margin-right: 0;
+  width: calc((100% - 72px) / 4);
 }
+
 .list-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
