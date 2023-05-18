@@ -100,8 +100,11 @@ body {
   margin-right: 0;
   
 }
-.main-info-list{
+.main-infolist{
   flex-basis: calc((100% - 72px) / 4);
+}
+.begin-section{
+  padding: 120px;
 }
 
 .list {
@@ -189,19 +192,17 @@ body {
 .address:focus {
   color: #404bbf;
 }
-.beginsection {
+.begin-section-h {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  /* identical to box height, or 111% */
+
 
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  /* NAVY BLUE */
-
+  margin-bottom: 72px;
   color: #2e2f42;
   line-height: 1.11;
 }
