@@ -113,6 +113,18 @@ body {
   gap: 40px;
   margin-right: 0;
 }
+.begin-section-ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin-right: 0;
+}
+.main-info-container-ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin-right: 0;
+}
 .list-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
