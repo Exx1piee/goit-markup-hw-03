@@ -228,6 +228,13 @@ body {
   color: #2e2f42;
   line-height: 1.11;
 }
+.list-our-team{
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 0;
+  gap: 24px;
+}
 .our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
