@@ -241,7 +241,11 @@ body {
 }
 .our-team-photos {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px; 
  
+}
+.our-team-li-div{
+  padding: 32px 16px;
 }
 .footer {
   background-color: #2e2f42;
