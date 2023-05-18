@@ -230,10 +230,11 @@ body {
 }
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .our-team-photos {
   background-color: #ffffff;
-  padding: 120px 0;
+ 
 }
 .footer {
   background-color: #2e2f42;
