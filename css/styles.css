@@ -204,6 +204,9 @@ body {
   text-align: center; 
   margin-bottom: 8px;
 }
+.portfolio-buttons{
+  padding: 96px 0 120px;
+}
 .main-info-p-our-team{
   font-style: normal;
   font-weight: 400;
