@@ -60,7 +60,7 @@ body {
 }
 
 .header {
-  background-color: #e7e9fc;
+  background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -98,6 +98,7 @@ body {
   display: flex;
   gap: 24px;
   margin-right: 0;
+  width: calc((100% - 72px) / 4);
 }
 .main-info-list {
   width : calc((100% - 3 * 24px) / 4);
@@ -117,6 +118,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: none;
+
 }
 .list-link:hover {
   color: #404bbf;
@@ -136,6 +139,7 @@ body {
   display: flex;
   gap: 40px;
   margin-right: 0;
+  text-transform: none;
 }
 .heroimg {
   background-color: #2e2f42;
