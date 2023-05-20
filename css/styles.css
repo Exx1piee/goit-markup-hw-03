@@ -325,23 +325,22 @@ text-align: center;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
-  /* IRIS */
-
   color: #4d5ae5;
-
-  /* Inside auto layout */
-
   background-color: #f4f4fd;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .button-portfolio:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .button-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 img {
   display: block;
