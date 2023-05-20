@@ -22,6 +22,22 @@ body {
   text-decoration: none;
   margin-right: 76px;
 }
+.link-portfolio-img{
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  text-decoration: none;
+  margin-right: 76px;
+  width: calc((100% - 48px) / 3)
+}
 .link-footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -136,8 +152,11 @@ body {
 .list-photos-portfolio-div{
   padding: 32px 16px;
   border: 1px solid #e7e9fc; 
+  border-top: none;
 }
 .list-photos-portfolio-li{
+  margin: 0;
+  padding: 0;
   width: calc((100%-48px)/3);
 }
 .list-portfolio-buttons{
@@ -279,7 +298,7 @@ text-align: center;
   letter-spacing: 0.02em;
 
   color: #434455;
-  
+
 }
 .address:hover {
   color: #404bbf;
