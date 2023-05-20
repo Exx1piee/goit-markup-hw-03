@@ -45,7 +45,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -131,6 +130,7 @@ body {
   margin-right: 0;
 }
 .list-photos-portfolio{
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
