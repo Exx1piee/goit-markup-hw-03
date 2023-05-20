@@ -119,6 +119,15 @@ body {
   gap: 40px;
   margin-right: 0;
 }
+.list-photos-portfolio{
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 0;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 .list-portfolio-buttons{
   list-style: none;
   display: flex;
@@ -127,6 +136,7 @@ body {
   justify-content: center; 
   gap: 24px;
   margin-bottom: 72px;
+  flex-wrap: wrap;
 }
 .begin-section-ul {
   list-style: none;
