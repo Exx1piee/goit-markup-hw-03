@@ -14,6 +14,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   line-height: 1.17;
@@ -50,7 +52,9 @@ body {
   color: #4d5ae5;
   text-decoration: none;
   margin-bottom: 16px;
-
+  display: flex;
+  align-items: center;
+  display: inline-block; 
 }
 .logotwo {
   font-family: "Raleway", sans-serif;
@@ -64,6 +68,7 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
   text-decoration: none;
+  
   margin-right: 76px;
 }
 
@@ -364,6 +369,8 @@ text-align: center;
   color: #f4f4fd;
   text-decoration: none;
   margin-right: 76px;
+  display: inline-block; 
+  
 }
 .footer-p {
   font-style: normal;
